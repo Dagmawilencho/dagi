@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="../fontawesome-free-5.7.1-web/css/all.css"/>
+        <title>
+            HOME | Mihret Graphics
+        </title>
+    </head>
+    
+    
+    <!--BODY STARTS-->
+    
+    <body>
+    <style>
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background:#ffb100;
+}
+
+/*HEADER BEGINS*/
+
+header{
+    width:100%;
+    height:50px;
+    background:green;
+    margin:0;
+    padding:0;
+    border-bottom:2px black solid;
+    position:fixed;
+}
+
+header #inner-header {
+    width:90%;
+    height:50px;
+    margin:0 5% 0 5%;
+
+}
+
+header #logo {
+    float:Left;
+    margin:0px 0 0 0;
+    padding:10px 10px 15px 10px;
+}
+
+#logo:hover{
+    color:#ff9c00;
+    background:black;
+    font-size:15px;
+
+}
+
+header #menu-button {
+    margin:15px 0 0 0;
+    float:right;
+    width:25px;
+    position:relative;
+}
+
+.mb-span{
+    display:block;
+    width:100%;
+    margin:0 0 5px 0;
+    height:3px;
+    background-color:black;
+}
+
+#menu-button:hover + nav{
+    visibility:visible;
+
+}
+
+nav:active {
+    visibility:visible;
+}
+
+
+nav{
+    position:absolute;
+    padding:10px;
+    top:10px;
+    right:45px;
+    background:black;
+    border-radius:10px;
+    visibility:hidden;
+    
+}
+
+nav ul li{
+    list-style:none;
+    
+    padding:10px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#ff9c00;
+    font-weight:bold;
+}
+
+/*HEADER ENDS*/
+
+
+/*BODY BEGINS*/
+
+/*Main Content*/
+
+#main {
+    padding-top:51px;
+
+}
+
+/*SHOWCASE*/
+#showcase {
+    width:100%;
+    height:450px;
+    background:url("image/eemaan.jpg") no-repeat;
+    background-size:180%;
+    background-position:-125px -10px;
+}
+
+#inner-showcase{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+}
+
+
+#showcase article {
+    text-align:center;
+    padding:190px 0 0px 0;
+    color:#ff9c00;
+}
+
+#showcase article h1{
+    font-size:40px;
+}
+/*SHOWCASE ENDS*/
+
+
+/*ABOUT STARTS*/
+
+#about {
+    width:100%;
+    background:rgb(250,200,80);
+}
+
+#about-inner {
+    width:90%;
+    margin:0% 5% 0% 5%;
+
+}
+
+#about h2 {
+    padding:20px 10px;
+    text-align:center;
+}
+
+#about article {
+    padding:0 10px 0 10px;
+    line-height:40px;
+    text-align:justify;
+}
+
+/*ABOUT ENDS*/
+
+
+
+/*EXPERIENCE STARTS*/
+#experience {
+    width:100%;
+
+}
+
+#experience-inner{
+ width:90%;
+ margin:0 5% 0 5%;
+}
+
+#experience h2{
+    padding:20px 10px;
+    text-align:center;
+
+}
+
+#experience article {
+    padding:0 10px 0 10px;
+    line-height:40px;
+    text-align:justify;
+}
+
+#experience h4 {
+    font-size:30px;
+    line-height:40px;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+#experience h6{
+    font-size:15px;
+    text-transform:capitalize;
+    margin-bottom:-25px;
+}
+
+#flyer {
+    display:inline-table;
+    width:90%;
+    height:5px;
+    background:white;
+    overflow:hidden;
+}
+
+#rate p {
+    display:inline;
+    font-size:10px;
+    font-weight:bold;
+}
+
+#flyer-inner {
+    position:relative;
+    background:black;
+    width:70%;
+    height:5px;
+}
+
+#banner {
+    display:inline-table;
+    width:90%;
+    height:5px;
+    background:white;
+    overflow:hidden;
+}
+
+#banner-inner{
+    position:relative;
+    background:black;
+    width:70%;
+    height:5px;
+}
+
+
+/*EXPERIENCE ENDS*/
+
+
+
+/*SERVICES STARTS*/
+#services {
+    background:white;
+    padding-top:10px;
+    padding-bottom:20px;
+    width:100%;
+}
+
+#services-inner{
+    width:90%;
+    margin:0 5% 0 5%;
+}
+
+#services h2{
+    text-align:center;
+    margin:20px 10px;
+}
+
+#services h4{
+    text-align:center;
+}
+
+#f-service{
+    width:90%;
+    margin:0 5% 50px 5%;
+    height:380px;
+    background:white;
+    border-radius:10px;
+    box-shadow:2px 2px 4px black;
+}
+
+#f-service h4{
+    font-size:30px;
+    padding:5px 0;
+
+}
+
+
+#f-service-inner article{
+    text-align:justify;
+    line-height:35px;
+    padding:0 10px;
+}
+
+#f-service-inner {
+    text-align:center;
+
+}
+
+.view-service {
+    width:150px;
+    height:50px;
+    padding:10px;
+    margin-top:10px;
+    background:black;
+    border:none;
+}
+
+.view-service a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#ff9c00;
+
+}
+
+
+
+#b-service{
+    width:90%;
+    margin:0 5% 0 5%;
+    height:380px;
+    background:white;
+    border-radius:10px;
+    box-shadow:2px 2px 4px black;
+}
+
+#b-service h4{
+    font-size:30px;
+    padding:5px 0;
+
+}
+
+
+#b-service-inner article{
+    text-align:justify;
+    line-height:35px;
+    padding:0 10px;
+}
+
+#b-service-inner {
+    text-align:center;
+
+}
+
+.view-service {
+    width:150px;
+    height:50px;
+    padding:10px;
+    margin-top:10px;
+    background:black;
+    border:none;
+}
+
+.view-service a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#ff9c00;
+
+}
+
+
+
+/*SERVICES ENDS*/
+
+
+/*FOOTER STARTS*/
+
+footer{
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+}
+
+
+
+/*FOOTER ENDS*/
+
+
+
+</style>
+        <div id="inner-body">
+        
+        <!--HEADER STARTS-->
+        
+            <header>
+                <div id="inner-header" >
+                
+                <!--LOGO STARTS-->
+                    <div id="logo" >
+                        <div id="inner-logo" >
+                            <h2><p>Here is an image</p></h2>
+                        </div>
+                    </div>
+                <!--LOGO ENDS-->
+                    
+                
+                <!--MENU BUTTON STARTS-->
+                
+                    <div id="menu-button" >
+                        <div id="menu-button-inner">
+                            <span class="mb-span"></span>
+                            <span class="mb-span"></span>
+                            <span class="mb-span"></span>
+                        </div>
+                    
+                    </div>
+                    
+                <!--MENU BUTTON ENDS-->
+        
+        
+                <!--NAV STARTS-->
+                
+                    <nav>
+                        <div id="inner-nav" >
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#about">ABOUT</a></li>    
+                                <li><a href="#experience">EXPERIENCE</a></li>
+                                <li><a href="#services">SERVICES</a></li>    
+                                <li><a href="#testimony">TESTIMONY</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    
+                <!--NAV ENDS-->
+                
+                </div>
+            </header>
+            
+            <!--HEADER ENDS-->
+            
+            <!--MAIN CONTENT STARTS-->
+            
+            <div id="main" >
+                <div id="inner-main" >
+                    
+                    <!--SHOWCASE STARTS-->
+                        <div id="showcase" >
+                            <div id="inner-showcase" >
+                                <article>
+                                    <h1>Mihret Graphix</h1>
+
+
+                                <p>FLYER & BANNER At Best</p>
+                                </article>
+                            </div>
+                        </div>
+                    <!--SHOWCASE ENDS-->
+            
+                    
+                    <!--ABOUT US STARTS-->
+                    
+                    <div id="about" >
+                        <div id="about-inner" >
+                            <div>
+                                <h2>ABOUT US</h2>
+                            </div>
+                            
+                            <article>
+                                <p>
+                                    Script  is  one  of  the  oldest  cultural  assets.
+                                    The  first  attempts  at  written expressions  date
+                                    back  more  than  5,000  years  ago.  From  the  Sumerians
+                                    cuneiform  writing  to  the  invention  of  the  Gutenberg 
+                                    printing  press  in Medieval  Germany  up  to  today՚s moden
+                                </p>
+                                
+                                
+                                
+                                <p>
+                                    Script  is  one  of  the  oldest  cultural  assets.
+                                    The  first  attempts  at  written expressions  date
+                                    back  more  than  5,000  years  ago.  From  the  Sumerians
+                                </p>
+                            
+                            </article>
+                        
+                        </div>
+                    </div>
+                    
+                <!--ABOUT US ENDS-->
+                
+                
+                <!--EXPERIENCE STARTS-->
+                    <div id="experience" >
+                        <div id="experience-inner" >
+                            <h2>EXPERIENCES</h2>
+                            
+                            <article>
+                                <p>
+                                    With an external style sheet, you can change the look of
+                                    an entire website by changing just one file!
+                                    Each page must include a reference to
+                                    the external style sheet file inside the  element.
+                                    The element goes inside the section:
+                                </p>
+                            </article>
+                            
+                            <article id="rate" >
+                                <h4>My Experience Rating Per Service</h4>
+                                
+                                <h6>1. Flyer</h6>
+                                <div id="flyer" >
+                                    <div id="flyer-inner" >
+                                    
+                                    </div>
+                                </div> <p>80%</p>
+                                
+                                <br>
+                                
+                                <h6>2. Banner</h6>
+                                <div id="banner" >
+                                    <div id="banner-inner" >
+                                
+                                    </div>
+                                </div> <p>80%</p>
+                            </article>
+                        </div>
+                    </div>
+                <!--EXPERIENCE ENDS-->
+                
+                
+                <!--SERVICES STARTS-->
+                    <div id="services" >
+                        <div id="services-inner" >    
+                                            
+                                <h2>SERVICES</h2>
+                            <div id="f-service" >
+                                <div id="f-service-inner" >
+                                    <article>
+                                        
+                                        <h4>FLYER</h4>
+                                        
+                                        <p>
+                                            The height and width can be set to auto (this is default.
+                                             Means that the browser calculates the height and width),
+                                             or be specified in length values,
+                                             like px, cm, etc., or in percent (%) of the containing block.
+                                        </p>
+                                        
+                                    </article>
+                                    
+                                    <button class="view-service"  >
+                                        <a href="#"> VIEW SERVICE </a>
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                                    
+                            <div id="b-service" >
+                                <div id="b-service-inner" >
+                                    <article>
+                                    
+                                    <h4>BANNER</h4>
+                                    
+                                    <p>
+                                    The height and width can be set to auto (this is default.
+                                    Means that the browser calculates the height and width),
+                                    or be specified in length values,
+                                    like px, cm, etc., or in percent (%) of the containing block.
+                                    </p>
+                                    </article>
+                                
+                                    <button class="view-service"  >
+                                        <a href="#"> VIEW SERVICE </a>
+                                    </button>
+                                </div>
+                            </div>    
+                        </div>        
+                    </div>    
+                <!--SERVICES ENDS-->
+                
+                
+                <!--TESTIMONY STARTS-->
+                <div id="testimony">
+                    <div id="testimony-inner">
+                        
+                
+                    </div>
+                </div>
+                
+                <!--TESTIMONY ENDS-->
+                
+                
+                <div id="contact" >
+                    <div id="contact-inner" >
+                
+                
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+                                            
+                   
+               </div><br /> <br /><br />
+
+            <!--MAIN CONTENT ENDS-->
+            
+            
+            <!--FOOTER STARTS-->
+            <footer>
+                <div id="footer-inner" >
+            
+                    ©Made by Mihret Mengesha
+            
+                </div>
+            </footer>
+            <!--FOOTER ENDS-->
+            
+        </div>    
+    </body>
+</html>
+ </div>    
+    </body>
+</html>
+"_blank">ALX</a>.
+            
+                </div>
+            </footer>
+            <!--FOOTER ENDS-->
+            
+        </div>    
+    </body>
+</html>
+ </div>    
+    </body>
+</html>
+    
+        </div>    
+    </body>
+</html>
+ </div>    
+    </body>
+</html>
+          <!--FOOTER ENDS-->
+            
+        </div>    
+    </body>
+</html>
+ </div>    
+    </body>
+</html>
+</div>    
+    </body>
+</html>
+ </div>    
+    </body>
+</html>
+>
+>
